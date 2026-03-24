@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #A5A692;
+    /* Cinza esverdeado */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+}
+
+h1 {
+    background-color: #011F26;
+    /* Azul muito escuro */
+    color: #FFFFFF;
+    /* Branco */
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #025E73;
+    /* Azul petróleo */
+    margin-bottom: 10px;
+}
+
+p {
+    color: #011F26;
+    /* Azul muito escuro para o texto */
+    line-height: 1.4;
+    text-align: justify;
+}
+
+/* estilos de peso da fonte */
+p.normal { font-weight: 400; } /* estilo normal (padrão) */
+.p1 {font-weight: 700;} /* negrito normal*/
+.p2 {font-weight: 900;} /* negrito pesado */
+
+.autor {
+    background-color: #BFB78F;
+    /* Bege */
+    color: #025E73;
+    /* Azul petróleo */
+    text-align: right;
+    padding: 5px 10px;
+    font-size: 0.8em;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.separador {
+    text-align: center;
+    color: #025E73;
+    /* Azul petróleo */
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+img-teste {
+    width: 300px;
+}
